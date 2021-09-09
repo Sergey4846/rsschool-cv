@@ -14,25 +14,22 @@ I am 28 years old, I live and work in Belarus, in Minsk. I work as a taxi driver
 5. *Code example:*
 
 calculating the area of ​​a circle and a rectangle from the entered parameters using java.
-`
-import java.util.Scanner;
 
-public class solution {
+    import java.util.Scanner;
+    public class solution {
     public static void main(String[] args) {
-        Scanner scnew = new Scanner(System.in);
-        int a = scnew.nextInt();
-        int b = scnew.nextInt();
-        int r = scnew.nextInt();
-        double circleArea = 3.14 * (r * r);
-        double rectangleArea = a * b;
-        if (circleArea > rectangleArea)
-            System.out.println("Картонка с данным радиусом закрывает прямоугольник");
-        else
-            System.out.println("Картонка с данным радиусом не закрывает прямоугольник");
-
-        }
+    Scanner scnew = new Scanner(System.in);
+    int a = scnew.nextInt();
+    int b = scnew.nextInt();
+    int r = scnew.nextInt();
+    double circleArea = 3.14 * (r * r);
+    double rectangleArea = a * b;
+    if (circleArea > rectangleArea)
+    System.out.println("Картонка с данным радиусом закрывает прямоугольник");
+    else
+    System.out.println("Картонка с данным радиусом не закрывает прямоугольник");
     }
-    `    
+    } 
 6. *Education and courses:*
 
 * Higher education at the IIT BSUIR Faculty of Computer Technologies(completed)
