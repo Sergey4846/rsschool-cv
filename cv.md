@@ -12,7 +12,7 @@ I am 28 years old, I live and work in Belarus, in Minsk. I work as a taxi driver
 * Basic knowledge of Adobe Photoshop
 5. *Code example:*
 calculating the area of ​​a circle and a rectangle from the entered parameters using java.
-```import java.util.Scanner;
+``` import java.util.Scanner;
 
 public class solution {
     public static void main(String[] args) {
@@ -29,4 +29,6 @@ public class solution {
 
         }
     }
-    ```
+
+    ```    
+    6. Educ
