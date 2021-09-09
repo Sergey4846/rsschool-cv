@@ -1,4 +1,4 @@
-1. ##Sergey Ruzhankov##
+1. ## Sergey Ruzhankov
 2. *You can contact me in the following ways:*
 * by phone number: +375298763837
 * by email: sergeyruzhankov@gmail.com
