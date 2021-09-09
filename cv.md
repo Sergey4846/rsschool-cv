@@ -29,7 +29,7 @@ calculating the area of ​​a circle and a rectangle from the entered paramete
     else
     System.out.println("Картонка с данным радиусом не закрывает прямоугольник");
     }
-    } 
+    }; 
 6. *Education and courses:*
 
 * Higher education at the IIT BSUIR Faculty of Computer Technologies(completed)
