@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergey-Ruzhankov-CV</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container-centered">
+        <div class="two-columns">
+          <div class="left-column">
+            <header>
+              <img src="./images/photo.jpg" alt="Photo" width="170" height="220">
+              <h1>Sergey Ruzhankov</h1>
+              
+            </header>
+            <main>
+              <section class="contacts">
+                <h3>Contacts</h3>
+                <ul>
+                  <li>
+                      <p>Phone:</p>
+                      <p>+375(029)876-38-37</p>
+                  </li>
+                  <li><p>Email:
+                      <p>sergeyruzhankov@gmail.com</p>
+                  </li>
+                  <li>
+                      <p>Discord:</p>
+                      <p>Sergey_Ruzhankov(Sergey4846)#1311</p>
+                  </li>
+                </ul>
+              </section>
+              <section class="skills">
+                <h3>Skills</h3>
+                <ul>
+                  <li>HTML5, CSS3</li>
+                  <li>JavaScript Basics</li>
+                  <li>Git, GitHub</li>
+                  <li>VS Code, IntelliJ IDEA</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Illustrator, InDesign</li>
+                </ul>
+              </section>
+              <section class="languages">
+                <h3>Languages</h3>
+                <ul>
+                  <li>
+                    <p class="language-name">English</p>
+                    <p>Upper-intermediate</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Russian</p>
+                    <p>Native</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Ukrainian</p>
+                    <p>Intermediate</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Polish</p>
+                    <p>Basic</p>
+                  </li>
+                </ul>
+              </section>
+            </main>
+          </div>
+          <aside class="right-column">
+            <section class="about-myself">
+              <div class="sub-header">
+                <img src="./icons/myself.svg" alt="About Myself Icon" width="30" height="30">
+                <h3>About Myself</h3>
+              </div>
+              <p>I am 28 years old, I live and work in Belarus, in Minsk. I work as a taxi driver. 
+                  In June 2021, I decided to become a front-end developer and enter the information technology field. 
+                  I believe that IT and the Internet are the future, so I want to develop in this area. 
+                  I like working in a team and learning something new every time. 
+                  It’s interesting and fun, especially when you get feedback and results. 
+                  At the moment I am taking the Stage0 JS / FE Pre-School course at RS school. 
+                  In the future, I want to become a front-end developer and make the world a better place by creating quality websites. 
+                  For a powerful and confident start, I chose EPAM because it is serious, 
+                  well-known and ready to help newcomers like me enter the IT field and build a career, gain teamwork and programming skills. 
+                  I believe that everything will work out for me.</p>
+            </section>
+            <section class="education">
+              <div class="sub-header">
+                <img src="./icons/education.svg" alt="Education Icon" width="30" height="30">
+                <h3>Education</h3>
+              </div>
+              <p><strong>Zaporizhzhya State Engineer Academy</strong></p>
+              <p>Electronic Engineering Faculty</p>
+              <p>Years: 1998 - 2003</p>
+              <p>Specialization: Physical and Biomedical Electronics, Bachelor's degree</p>
+            </section>
+            <section class="courses">
+              <div class="sub-header">
+                <img src="./icons/courses.svg" alt="Courses" width="30" height="30">
+                <h3>Courses</h3>
+              </div>
+              <ul>
+                <li>HTML and CSS Tutorials on w3schools</li>
+                <li>JavaScript Manual on learnjavascript.ru</li>
+                <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+              </ul>
+              <img class="score-img" src="./images/w3schools-score_small.jpg" alt="W3schools Score" width="500">
+            </section>
+            <section class="code-example">
+              <div class="sub-header">
+                <img src="./icons/code.svg" alt="Code Icon" width="30" height="30">
+                <h3>Code example</h3>
+              </div>
+              <p><strong>Peak array index KATA from CODEWARS:</strong> Given an array of ints, return the index such that
+                the sum of the elements to the right of that index equals the sum of the elements to the
+                left of that index. If there is no such index, return -1. If there is more than one such index, return the
+                left-most index.</p>
+              <pre>
+                <code>
+    function peak(arr) {
+    
+      for (let i = 1; i &lt; arr.length - 1; i++) {
+        let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+        let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    
+        if (leftSum === rightSum) return i;
+      }
+      return -1;
+    }</code>
+              </pre>
+            </section>
+          </aside>
+        </div>
+        <footer>
+          <a class="my-github" href="https://github.com/AnnaVoloshina">
+            <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+            <p>Visit my GitHub</p>
+          </a>
+          <p>© 2021</p>
+          <a href="https://rs.school/js/">
+            <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+          </a>
+        </footer>
+      </div>
+    </body>
+    
+    </html>
+    
+    
+</body>
+</html>
