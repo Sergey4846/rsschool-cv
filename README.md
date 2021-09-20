@@ -1,1 +1,0 @@
-https://Sergey4846.github.io/rsschool-cv/cv
